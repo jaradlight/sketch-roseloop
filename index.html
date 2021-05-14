@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>rose - p5.js sketch</title>
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+            }
+            body {
+                background-color: #333;
+            }
+            main {
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .p5Canvas {
+                border: 1px solid white;
+                box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+            }
+        </style>
+    </head>
+    <body>
+        <main></main>
+        <script src="https://unpkg.com/p5/lib/p5.js"></script>
+        <script src="https://unpkg.com/ccapture.js/build/CCapture.all.min.js"></script>
+        <script src="sketch.js"></script>
+    </body>
+</html>
